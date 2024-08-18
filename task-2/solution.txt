@@ -1,2 +1,20 @@
 git config --global user.name eiman-salah
-
+git config --globel user.email eimanalmalik2003@gmail.com 
+git clone https://github.com/eiman-salah/linux.git
+cd linux
+mkdir task-2
+cd task-2 
+echo "hello wold" /greeting.txt
+git add greeting.txt
+git commit -m "Added greeting"
+git branch intro 
+git checkout intro 
+echo "I love git" >>greeting.txt
+git add gerrting.txt 
+git commit -m "Added I love Git"
+git checkout main 
+git merge 
+git tag v1
+cd linux 
+cd tesk-2 
+touch solution.txt 
